@@ -11,6 +11,12 @@ const AppsSchema = new Schema({
         type: String,
         required: true
     },
+    last_modified: {
+        type: Number
+    },
+    tracking: {
+        type: Boolean
+    }
 });
 
 module.exports = mongoose.model('Apps', AppsSchema, 'apps');
