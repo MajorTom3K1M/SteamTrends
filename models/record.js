@@ -4,9 +4,8 @@ const RecordSchema = new mongoose.Schema({
     appid: {
         type: Number,
         required: true,
-        ref: 'Apps'
     },
-    nop: {
+    ccu: {
         type: Array
     }
 });

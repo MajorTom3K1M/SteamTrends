@@ -35,7 +35,9 @@ module.exports = {
             release_date: appData.release_date ? appData.release_date : "",
             movies: appData.movies ? appData.movies : [],
             recommendations: appData.recommendations ? appData.recommendations : "",
-
+            background: appData.background ? appData.background : "",
+            content_descriptors: appData.content_descriptors ? appData.content_descriptors : "",
+            package_groups: appData.package_groups ? appData.package_groups : []
         };
         return app;
     }

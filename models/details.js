@@ -6,7 +6,6 @@ const DetailsSchema = Schema({
     appid: {
         type: Number,
         required: true,
-        ref: 'Apps'
     },
     type: {
         type: String,
@@ -81,6 +80,15 @@ const DetailsSchema = Schema({
     },
     recommendations: {
         type: Object,
+    },
+    background: {
+        type: String
+    },
+    content_descriptors: {
+        type: Object
+    },
+    package_groups: {
+        type: Array
     }
 });
 
